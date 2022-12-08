@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Hikikomori13.github.io/rsschool-cv/cv
