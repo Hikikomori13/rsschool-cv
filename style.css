@@ -1,3 +1,100 @@
-p {
-    color: rgb(0, 202, 0);
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: url(https://4kwallpapers.com/images/wallpapers/outrun-neon-dark-background-purple-1920x1080-4523.jpg) no-repeat center center / cover;
+padding: 100px 0;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.container {
+    width: 1440px;
+    min-height: 800px;
+    border: 10px solid white;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 30px;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.header {
+    display: flex;
+    height: 150px;
+}
+
+.title-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-size: 70px;
+    background: url(https://4kwallpapers.com/images/wallpapers/outrun-neon-dark-background-purple-1920x1080-4523.jpg) no-repeat center center / cover;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    border-radius: 30px;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.title-block::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.userpic {
+    display: flex;
+    height: 100%;
+    width: 20%; 
+    background: url(https://ltdfoto.ru/images/2022/12/18/my-photo.jpg) no-repeat center center / cover;
+    border-radius: 30px;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.nav ul {
+display: flex;
+background: rgb(62, 62, 125);
+margin: 10px 0;
+border-radius: 30px;
+    border: 3px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav li a {
+    display: flex;
+     padding: 73.5px;
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+     border-right: 2px solid rgb(255, 255, 255);
+}
+
+.nav li a:hover {
+    background: rgb(44, 44, 91);
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.content {
+    width: 85%;
+}
+
+.content p {
+    line-height: 20px;
+}
+
+.sidebar {
+width: 15%;
 }
